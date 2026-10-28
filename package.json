@@ -1,0 +1,26 @@
+
+{
+  "name": "puff",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Puff — a real-time multiplayer fan-and-ball survival game built with React and Tailwind CSS.",
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node --watch server/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

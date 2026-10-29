@@ -18,6 +18,12 @@ Puff is a real-time multiplayer survival game where 2–4 players share a square
 
 ---
 
+## 🔗 Live Demo
+
+**Play Puff:** [https://puff-sd09.onrender.com](https://puff-sd09.onrender.com)
+
+**GitHub Repository:** [https://github.com/sum9548/Puff](https://github.com/sum9548/Puff)
+
 ## Features
 
 - Real-time multiplayer gameplay
